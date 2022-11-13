@@ -16,13 +16,13 @@ function Navbar() {
           <div className="nav-end">
             <ul className="ul-list">
               <li>
-                <a href="#">My assignment</a>
+                <a>My assignment</a>
               </li>
               <li>
-                <a href="#">Chat With Mentor</a>
+                <a>Chat With Mentor</a>
               </li>
               <li>
-                <a href="#" className="active flex">
+                <a className="active flex">
                   <img src={profile} alt="" /> ProfileName
                   <MdExpandMore />
                 </a>

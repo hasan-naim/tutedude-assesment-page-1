@@ -24,6 +24,11 @@ nav {
   color: rgba(128, 0, 128, 0.25);
   font-weight: 500;
   font-size: 18px;
+  transition: all 0.4s;
+}
+.ul-list a:hover {
+  transition: all 0.4s;
+  color: var(--primary);
 }
 
 .ul-list .active {
@@ -64,6 +69,9 @@ nav {
     border-radius: 10px;
     display: flex;
     background-color: var(--primary);
+    color: white;
+  }
+  .ul-list .active:hover {
     color: white;
   }
 }

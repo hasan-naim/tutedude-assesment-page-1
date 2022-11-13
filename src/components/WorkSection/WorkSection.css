@@ -1,0 +1,35 @@
+.work h1 {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.work .container {
+  padding: 0 5px;
+}
+
+.card {
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 355px;
+}
+.card-img {
+  background: var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 57px;
+  border-radius: 50%;
+}
+.card-desc h4 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card-desc p {
+  font-weight: 400;
+  font-size: 16px;
+}
