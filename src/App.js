@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import ReferSection from "./components/ReferSection/ReferSection";
 import WorkSection from "./components/WorkSection/WorkSection";
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <ReferSection />
       <WorkSection />
+      <Footer />
     </div>
   );
 }
