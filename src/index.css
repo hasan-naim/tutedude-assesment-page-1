@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   font-family: "Poppins", sans-serif;
 }
 
@@ -20,6 +19,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -39,6 +43,9 @@ a {
 
 .flex {
   display: flex;
+}
+.grid {
+  display: grid;
 }
 
 .hidden {

@@ -1,0 +1,89 @@
+.refer .grid {
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  column-gap: 93px;
+  padding: 0 10px;
+  justify-items: center;
+}
+
+.refer-card-container {
+  max-width: 486px;
+  padding: 20px;
+  z-index: 2;
+  gap: 20px;
+  background: #ffffff;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 62px;
+  row-gap: 30px;
+}
+
+.refer-card-container button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 180px;
+}
+
+.refer-card span {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--primary);
+}
+.refer-card h1 {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+/* referral-code */
+.referral-code {
+  width: 100%;
+}
+.referral-code h1 {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+.gradient-div {
+  width: 100%;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(90deg, #ff864c, #800080) border-box;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.gradient-div span {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--primary);
+}
+
+@media only screen and (min-width: 790px) {
+  .refer .grid {
+    grid-template-columns: 1.1fr 0.9fr;
+    padding: 20px 0px;
+    padding-bottom: 40px;
+  }
+
+  .gradient-div {
+    max-width: 355px;
+  }
+}
